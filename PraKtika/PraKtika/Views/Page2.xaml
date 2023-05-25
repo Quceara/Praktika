@@ -1,0 +1,31 @@
+﻿<Page x:Class="PraKtika.Views.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PraKtika.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="450"
+      Title="Page2">
+
+    <Grid Background="White">
+        <StackPanel VerticalAlignment="Center"
+                    HorizontalAlignment="Center" 
+                    Width="300" Height="400"
+                    Background="Aquamarine">
+            <TextBlock Text="Название экспоната:" TextAlignment="Center"/>
+            <TextBox x:Name="Name"  Margin="8" BorderThickness="2"/>
+            <TextBlock Text="Краткое описание:" TextAlignment="Center"/>
+            <TextBox x:Name="Description" Margin="8" BorderThickness="2"/>
+            <TextBlock Text="Возраст экспоната:" TextAlignment="Center"/>
+            <TextBox x:Name="Age"  Margin="8" BorderThickness="2"/>
+            <TextBlock Text="Ценность экспоната:" TextAlignment="Center"/>
+            <TextBox x:Name="Price" Margin="8"  BorderThickness="2"/>
+            <TextBlock Text="Место хранения:" TextAlignment="Center"/>
+            <TextBox x:Name="Location" Margin="8" BorderThickness="2"/>
+            <TextBlock Text="Заполните Форму и нажмите далее..." TextAlignment="Center"/>
+            <Button Content="Далее" Click="Button_Click" Margin="20" Height="80" Background="Gray"></Button>
+
+        </StackPanel>
+    </Grid>
+</Page>
